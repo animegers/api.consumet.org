@@ -13,7 +13,7 @@ const routes = async (fastify: FastifyInstance, options: RegisterOptions) => {
   fastify.get('/', (_, rp) => {
     rp.status(200).send({
       intro:
-        "Welcome to the gogoanime provider: check out the provider's website @ https://www1.gogoanime.bid/",
+        "Welcome to the gogoanime provider: check out the provider's website @ https://gogoanime3.cc/",
       routes: [
         '/:query',
         '/info/:id',
